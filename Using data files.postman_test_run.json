@@ -1,0 +1,110 @@
+{
+	"id": "a182c59f-39f4-479c-90a8-1ea23a86490a",
+	"name": "Using data files",
+	"allTests": [],
+	"timestamp": "2019-09-03T08:41:55.622Z",
+	"collection_id": "af438df1-4f97-49d0-90de-b5e8df5649a4",
+	"folder_id": 0,
+	"target_type": "collection",
+	"environment_id": "0",
+	"data": [],
+	"delay": 0,
+	"count": 4,
+	"collection": {
+		"id": "af438df1-4f97-49d0-90de-b5e8df5649a4",
+		"name": "Using data files",
+		"description": null,
+		"auth": null,
+		"events": null,
+		"variables": null,
+		"order": [
+			"37303f4a-8a25-4922-8f68-850010d8861f"
+		],
+		"folders_order": [],
+		"owner": "8670869",
+		"favorite": false
+	},
+	"folder": null,
+	"environment": null,
+	"globals": [
+		{
+			"key": "url",
+			"value": "https://jsonplaceholder.typicode.com",
+			"enabled": true
+		}
+	],
+	"results": [
+		{
+			"name": "POST Request",
+			"id": "37303f4a-8a25-4922-8f68-850010d8861f",
+			"totalTime": 0,
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"tests": {
+				"Response has data value": true
+			},
+			"testPassFailCounts": {
+				"Response has data value": {
+					"pass": 4,
+					"fail": 0
+				}
+			},
+			"times": [
+				"148",
+				"107",
+				"107",
+				"107"
+			],
+			"allTests": [
+				{
+					"Response has data value": true
+				},
+				{
+					"Response has data value": true
+				},
+				{
+					"Response has data value": true
+				},
+				{
+					"Response has data value": true
+				}
+			],
+			"time": "107",
+			"totalRequestTime": 469,
+			"iterationResults": {}
+		}
+	],
+	"totalPass": 4,
+	"totalFail": 0,
+	"totalTime": 469,
+	"lifecycle": "done",
+	"requests": [
+		{
+			"name": "POST Request",
+			"id": "37303f4a-8a25-4922-8f68-850010d8861f",
+			"url": "postman-echo.com/post",
+			"time": "107",
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"testPassFailCounts": {
+				"Response has data value": {
+					"pass": 4,
+					"fail": 0
+				}
+			}
+		}
+	],
+	"synced": false
+}
